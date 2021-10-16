@@ -1,0 +1,167 @@
+/* base styles */
+.ERRORMSG{
+    background-color:red;
+    color: black;
+    font-weight: bolder;
+    padding: 4px;
+}
+body {
+    background-color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p {
+    background-color: white;
+    border-radius: 10px;
+    border: thin;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Main {
+    text-align: center;
+    background-color: white;
+    border: none;
+    margin: auto;
+    width: 27%;
+    height: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+form {
+    padding: 8px;
+    border: none;
+    background-color: white;
+    margin: auto;
+    
+}
+button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+}
+.loginbtn{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+#accountName{
+    width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: lightgray;
+}
+
+#accountPass{
+    width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: lightgray;
+}
+
+#topNavBar {
+    background-color: lightgrey;
+    table-layout: fixed;
+    color: black;
+    width: 100%;
+}
+#topNavBar tr td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 45px;
+}
+#topNavBar tr td button{
+    width: 100%;
+    height: 100%;
+}
+iframe{
+    width: 100%;
+    height: 90%;
+}
+
+.TinyForm{
+    display: inline;
+    float: right;
+}
+
+/* item listing styles */
+#itemTable{
+    margin-top: 5px;
+    width: 100%;
+    background-color: white;
+}
+#itemTable tr{
+    height: 60px;
+}
+#itemTable tr td{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+/* notes styles */
+#notesTable{
+    width: 100%;
+    background-color: whitesmoke;
+}
+#notesTable tr td{
+    height: 20px;
+}
+#notesTable tr td *{
+    width: 100%;
+}
+#notesTable tr td textarea{
+    height: 400px;
+}
+
+/* chat styles */
+#chatTable{
+    width: 100%;
+    height: 100%;
+}
+
+/* reminder styles */
+.left_column{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background: royalblue;
+}
+.right_column{
+    width: 60%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    background:cyan;
+}      
+.float_container{
+    flex: 1;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.center_container{
+    text-align: center;
+    margin-top: 40%;
+}
